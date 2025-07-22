@@ -26,7 +26,10 @@ public class PasswordGenerator{
         System.out.println(nome +(" ") +cognome +(" ")+ colore);
         System.out.println(giorno +(" ")+ mese +(" ")+ anno);
         //generare password con nome,cognome,colore e somma della data di nascita concatenati
+        int somma = giorno + mese + anno;
+        System.out.println(somma);
         //stampare password
+        System.out.println("La password generata è : " + nome + cognome + colore + somma);
 
     }
 }

@@ -29,7 +29,7 @@ public class PasswordGenerator{
         int somma = giorno + mese + anno;
         System.out.println(somma);
         //stampare password
-        System.out.println("La password generata è : " + nome + cognome + colore + somma);
+        System.out.println("La password generata è : " + nome+"-" + cognome+"-" + colore+"-" + somma);
 
     }
 }
